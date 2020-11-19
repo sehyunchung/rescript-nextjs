@@ -1,5 +1,4 @@
-%raw
-"import '../styles/main.css'";
+%%raw(`import '../styles/main.css'`);
 
 // This type is based on the getInitialProps return value.
 // If you are using getServerSideProps or getStaticProps, you probably
@@ -8,13 +7,12 @@
 type pageProps = {.};
 
 module PageComponent = {
-  type t = React.component(pageProps);
+  type t = React.component<pageProps>;
 };
 
 type props = {
-  [@bs.as "Component"]
   component: PageComponent.t,
-  pageProps,
+  pageProps
 };
 
 // We are not using `[@react.component]` since we will never

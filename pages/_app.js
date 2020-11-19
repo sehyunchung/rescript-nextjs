@@ -9,7 +9,7 @@ import '../styles/main.css'
 
 function $$default(props) {
   var router = Router.useRouter();
-  var content = React.createElement(props.Component, props.pageProps);
+  var content = React.createElement(props.component, props.pageProps);
   var match = router.route;
   if (match === "/examples") {
     return React.createElement(MainLayout.make, {

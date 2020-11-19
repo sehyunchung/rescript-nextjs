@@ -5,13 +5,13 @@
   "license": "Apache License 2.0",
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
-    "gentype": "^3.35.0",
-    "next": "^9.5.3",
+    "gentype": "^3.39.0",
+    "next": "^9.5.5",
     "next-transpile-modules": "^4.1.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "reason-react": "^0.9.1",
-    "request": "^2.88.0"
+    "request": "^2.88.2"
   },
   "scripts": {
     "dev": "next",
@@ -25,8 +25,8 @@
     "res:start": "bsb -make-world -w"
   },
   "devDependencies": {
-    "autoprefixer": "^9.5.1",
-    "bs-platform": "8.3.0",
+    "autoprefixer": "^9.8.6",
+    "bs-platform": "8.3.1",
     "cssnano": "^4.1.10",
     "tailwindcss": "1.8.10"
   }
